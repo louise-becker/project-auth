@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const thoughts = createSlice({
   name: 'thoughts',
   initialState: {
-    items: [],
+    items: [{ message: 'test thought', _id: '987' }],
     error: null,
   },
   reducers: {
