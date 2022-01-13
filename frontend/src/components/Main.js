@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate, Link } from 'react-router-dom';
-import welcome_mouth from '../utils/welcome_mouth.png';
 
 import { API_URL } from '../utils/constants';
 import thoughts from '../reducers/thoughts';
